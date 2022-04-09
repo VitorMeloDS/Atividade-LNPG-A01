@@ -1,23 +1,26 @@
-from cgitb import text
-from msilib.schema import ComboBox
 from tkinter import *
 from tkinter.ttk import Combobox
-
+from tkinter import messagebox
+from tkinter.messagebox import showinfo
 
 # Vai exibir na tela o resultado da pesquisa 
 def mostra_pesquisa():
     
-    cadastro = dados_pessoal[tabela.get()]
-    nome_ps.configure(text=f"Nome: {cadastro[0]}")
-    cpf_ps.configure(text=f"CPF: {cadastro[1]}")
-    matricula_ps.configure(text=f"Matrícula: {cadastro[2]}")
-    data_ps.configure(text=f"Data de Nascimento: {cadastro[3]}")
+    try:  
+        cadastro = dados_pessoal[tabela.get()]
+        nome_ps.configure(text=f"Álbum: {cadastro[0]}")
+        banda_ps.configure(text=f"Banda: {cadastro[1]}")
+        data_ps.configure(text=f"Data de Criação: {cadastro[2]}")
+        lancamento_ps.configure(text=f"Álbum Lançamento do Artista:: {cadastro[3]}")
+    except:
+        messagebox.showwarning("Sem Dados", "Insira um Album!")
+        janela2.destroy()
 
 
 # Função para escolher quem vai pesquisar
 def como_pesquisar():
 
-    global janela2, dados_pessoal, tabela, nome_ps, cpf_ps, matricula_ps, data_ps
+    global janela2, dados_pessoal, tabela, nome_ps, banda_ps, data_ps, lancamento_ps
 
     # Tela de pesquisa
     janela2 = Toplevel()
@@ -26,7 +29,7 @@ def como_pesquisar():
     janela2["bg"] = "#3D403F"
 
     # Lendo o arquivo e organizando os dados
-    arquivo = open("texto.txt", "r")
+    arquivo = open("db.txt", "r")
     dados = arquivo.readlines()
     nome_lista = []
     dados_pessoal = {}
@@ -45,82 +48,93 @@ def como_pesquisar():
     Button(janela2, text="Pesquisar", bg="#6FC497", font="Courier 9 bold", fg="white", width=8, command=mostra_pesquisa).place(x=430, y=120)
 
     # Nome do usuário pesquisado
-    nome_ps = Label(janela2, text="Nome:", font="Courier 16 bold", bg="#3D403F", fg="white")
+    nome_ps = Label(janela2, font="Courier 16 bold", bg="#3D403F", fg="white")
     nome_ps.place(x=100, y=240)
 
     # cpf do usuário pesquisado
-    cpf_ps = Label(janela2, text="CPF:", font="Courier 16 bold", bg="#3D403F", fg="white")
-    cpf_ps.place(x=100, y=270)
+    banda_ps = Label(janela2, font="Courier 16 bold", bg="#3D403F", fg="white")
+    banda_ps.place(x=100, y=270)
 
     # Número da matricula pesquisada
-    matricula_ps = Label(janela2, text="Matrícula:", font="Courier 16 bold", bg="#3D403F", fg="white")
-    matricula_ps.place(x=100, y=300)
+    data_ps = Label(janela2, font="Courier 16 bold", bg="#3D403F", fg="white")
+    data_ps.place(x=100, y=300)
 
     # Data de nascimento pesquisada
-    data_ps = Label(janela2, text="Data de Nascimento:", font="Courier 16 bold", bg="#3D403F", fg="white")
-    data_ps.place(x=100, y=330)
+    lancamento_ps = Label(janela2, font="Courier 16 bold", bg="#3D403F", fg="white")
+    lancamento_ps.place(x=100, y=330)
 
-    Label(janela2, text="Autor: Vitor Melo da Silva", font="Courier", fg="#787878", bg="#3D403F", ).place(x=10, y=470)
-
+    Label(janela2, text="Autores: Vitor Melo, Denilson, Ykaro", font="Courier", fg="#787878", bg="#3D403F", ).place(x=10, y=470)
 
     janela2.mainloop()
 
 
 # função para cadastras as informações
 def cadastrar():
+
     # Vai procurar um aruqivo com o mesmo nome se não achar irar criar um
-    arquivo = open("texto.txt", "a")
+    arquivo = open("db.txt", "a")
 
     # Recebe as entradas do usuarios
     nome = nome_en.get().title().strip()
-    cpf = cpf_en.get().strip()
     matricula = matricula_en.get().strip()
     data = data_en.get().strip()
-
+    escolha = str(valor_escolha.get())
+    result = ''
+    if escolha == '1':
+      result = 'Sim'
+    else: result = 'Não'
     # Escreve os dados no arquivo
-    arquivo.write(f"{nome};{cpf[:3]}.{cpf[3:6]}.{cpf[6:9]}-{cpf[9:11]};{matricula};{data[:2]}/{data[2:4]}/{data[4:8]}\n")
+    arquivo.write(f"{nome};{matricula};{data[:2]}/{data[2:4]}/{data[4:8]}; {result}\n")
+    messagebox.showinfo("Salvo", "Álbum salvo com sucesso!")
 
     arquivo.close()
+    nome_en.delete(0, END)
+    matricula_en.delete(0, END)
+    data_en.delete(0, END)
 
 
 # função e tela de cadastro 
 def inserir_info():
 
-    global janela, nome_lb, cpf_lb, matricula_lb, data_lb, nome_en, cpf_en, matricula_en, data_en
+    global janela, album_lb, cpf_lb, matricula_lb, data_lb, nome_en, cpf_en, matricula_en, data_en, valor_escolha
 
     # Tela de cadastro
     janela = Toplevel()
     janela.title("Cadastro de Dados")
-    janela.geometry("600x500")
+    janela.geometry("600x800")
     janela["bg"] = "#3D403F"
 
     # Titulo da tela
-    Label(janela, text="Formulário de cadastramento", font="Courier 22 bold" ,bg="#3D403F", fg="white").place(x=80, y=20)
+    Label(janela, text="Formulário de cadastramento", font="Courier 22 bold" ,bg="#3D403F", fg="white").place(x=80, y=50)
 
     # Entrada do nome do cadastro
-    nome_lb = Label(janela, text="Nome:", font="Courier 16 bold", bg="#3D403F", fg="white").place(x=140, y=100)
+    album_lb = Label(janela, text="Nome do Álbum:", font="Courier 16 bold", bg="#3D403F", fg="white").place(x=140, y=130)
     nome_en = Entry(janela, font="Courier 12", width=30, bg="#E9E9E9", cursor="dot")
-    nome_en.place(x=140, y=130)
+    nome_en.place(x=140, y=170)
 
-    # Entrada do cpf do cadastro
-    cpf_lb = Label(janela, text="CPF:", font="Courier 16 bold", bg="#3D403F", fg="white").place(x=140, y=160)
-    cpf_en = Entry(janela, font="Courier 12", width=30, bg="#E9E9E9", cursor="dot")
-    cpf_en.place(x=140, y=190)
 
-    # Entrada da matrícula do cadastro
-    matricula_lb = Label(janela, text="Matrícula:", font="Courier 16 bold", bg="#3D403F", fg="white").place(x=140, y=220)
+    # Entrada do nome da banda do cadastro
+    matricula_lb = Label(janela, text="Nome da Banda:", font="Courier 16 bold", bg="#3D403F", fg="white").place(x=140, y=280)
     matricula_en = Entry(janela, font="Courier 12", width=30, bg="#E9E9E9", cursor="dot")
-    matricula_en.place(x=140, y=250)
+    matricula_en.place(x=140, y=310)
 
     # Entrada da data de nascimento do cadastro
-    data_lb = Label(janela, text="Data de nascimento:", font="Courier 16 bold", bg="#3D403F", fg="white").place(x=140, y=280)
-    data_en = Entry(janela, font="Courier 12", width=30, bg="#E9E9E9", cursor="dot")
-    data_en.place(x=140, y=310)
+    data_lb = Label(janela, text="Ano de Lançamento:", font="Courier 16 bold", bg="#3D403F", fg="white").place(x=140, y=210)
 
+    data_en = Entry(janela, font="Courier 12", width=30, bg="#E9E9E9", cursor="dot")
+    data_en.place(x=140, y=240)
+
+      # Checkbutton com Sim ou não
+    valor_escolha = IntVar()
+    Label(janela, text='Álbum lançamento?', font="Courier 16 bold", bg="#3D403F", fg="white").place(x=200, y=370)
+    es_sim = Radiobutton(janela, text = 'Sim', variable=valor_escolha,value=1, bg="#3D403F")
+    es_não = Radiobutton(janela, text = 'Não', variable=valor_escolha,value=2, bg="#3D403F")
+    es_sim.place(x=310, y=450)  
+    es_não.place(x=220, y=450)
     # Botão para cadastar as informações
-    Button(janela, text="Cadastrar", bg="#6FC497", font="Courier 16", fg="white" ,command=cadastrar).place(x=220, y=380)
+    Button(janela, text="Cadastrar", bg="#6FC497", font="Courier 16", fg="white" ,command=cadastrar).place(x=220, y=540)
     
-    Label(janela, text="Autor: Vitor Melo da Silva", font="Courier", fg="#787878", bg="#3D403F", ).place(x=10, y=470)
+    Label(janela, text="Autores: Vitor Melo, Denilson, Ykaro", font="Courier", fg="#787878", bg="#3D403F", ).place(x=10, y=720)
 
     janela.mainloop()
 
@@ -140,6 +154,6 @@ Button(text="Cadastrar Dados", font="Courier 16", fg="white", bg="#6FC497", comm
 # Botâo para selecionar a opção de consutar dados 
 Button(text="Mostrar Dados", font="Courier 16", fg="white", bg="#6FC497", command=como_pesquisar ).place(x=340, y=120)
 
-Label(text="Autor: Vitor Melo da Silva", font="Courier", fg="#787878", bg="#3D403F", ).place(x=10, y=270)
+Label(text="Autores: Vitor Melo, Denilson, Ykaro", font="Courier", fg="#787878", bg="#3D403F", ).place(x=10, y=270)
 
 tela.mainloop()
