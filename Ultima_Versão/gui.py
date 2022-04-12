@@ -5,7 +5,6 @@ import tkinter as tk
 from domain import banda
 from tkinter.messagebox import showinfo
 
-
 def tabela_view():
 
     root = tk.Tk()
