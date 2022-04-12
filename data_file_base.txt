@@ -35,3 +35,54 @@ Numanice #2;Ludmilla;2022; Sim
 QVVJFA?;Baco Exu do Blues;2022; Sim
 Juntos;Sorriso Maroto;2022; Sim
 Dawn FM (Alternate World);The Weeknd;2022; Sim
+'Blondie';Blondie;1977; Nao
+'Expensive Shit';Ela Kuti And Africa 70;1975; Sim
+'Supreme Clientele';Ghostface Killah;2000; Nao
+'Rapture';Anita Baker;1986; Nao
+'Nuggets: Original Artyfacts From The First Psychedelic Era';V�rios;1972; Nao
+'69 Love Songs';Magnetic Fields;1999; Nao
+'Everybody Knows This Is Nowhere';Neil Young;1969; Sim
+'Workingman�S Dead';Grateful Dead;1970; Sim
+The Beach Boys;'Wild Honey';1967; Nao
+Acabou Chorare;Novos Baianos;1972; Sim
+Tropic�lia Ou Panis Et Circencis;Various Artists;1968; Sim
+Constru��o;Chico Buarque;1971; Nao
+Chega De Saudade;Jo�o Gilberto;1959; Sim
+Secos & Molhados;Secos & Molhados;1973; Sim
+A T�bua De Esmeralda;Jorge Ben;1974; Sim
+Clube Da Esquina;Milton Nascimento & L� Borges;1972; Sim
+Cartolacartola;Cartola;1976; Sim
+Os Mutantes;Os Mutantes;1968; Sim
+Transa;Caetano Veloso;1972; Sim
+Elis & Tom;Elis Regina & Ant�nio Carlos Jobim;1974; Sim
+Krig-Ha, Bandolo!;Raul Seixas;1973; Sim
+Da Lama Ao Caos;Chico Science & Na��o Zumbi;1994; Nao
+Sobrevivendo No Inferno;Racionais Mc'S;1997; Sim
+Samba Esquema Novo;Jorge Ben;1963; Sim
+Fruto Proibido;Rita Lee & Tutti Frutti;1975; Sim
+Racional Vol. 1;Tim Maia;1975; Sim
+Afrociberdelia;Chico Science & Na��o Zumbi;1996; Sim
+Cabe�a Dinossauro;Tit�s;1986; Sim
+Fa-Tal: Gal A Todo Vapor;Gal Costa;1971; Sim
+Dois;Legi�o Urbana;1986; Sim
+A Divina Com�dia Ou Ando Meio Desligado;Mutantes;1970; Sim
+Coisas;Moacir Santos;1965; Sim
+Em Ritmo De Aventura;Roberto Carlos;1967; Sim
+Tim Maia;Tim Maia;1970; Sim
+Expresso 2222;Gilberto Gil;1972; Sim
+N�s Vamos Invadir Sua Praia;Ultraje A Rigor;1985; Nao
+Roberto Carlos;Roberto Carlos;1971; Sim
+Os Afro-Sambas De Baden E Vin�cius;Baden Powell & Vinicius De Moraes;1966; Sim
+A Dan�a Da Solid�o;Paulinho Da Viola;1972; Sim
+Carlos, Erasmo...;Erasmo Carlos;1971; Sim
+P�rola Negra;Luiz Melodia;1973; Sim
+E Seu Viol�o;Caymmi;1959; Sim
+Loki?;Arnaldo Baptista;1974; Sim
+Estudando O Samba;Tom Z�;1976; Sim
+Falso Brilhante;Elis Regina;1976; Sim
+Caetano Veloso;Caetano Veloso;1968; Sim
+Maria Fuma�a;Banda Black Rio;1977; Sim
+Legi�o Urbana;Legi�o Urbana;1985; Sim
+Meus Caros Amigos;Chico Buarque;1976; Sim
+Bloco Do Eu Sozinho;Los Hermanos;2001; Sim
+Refazenda;Gilberto Gil;1975; Sim
