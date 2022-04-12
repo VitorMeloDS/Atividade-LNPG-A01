@@ -1,7 +1,6 @@
 from pickle import TRUE
 from db import database
-from tkinter import messagebox
-from tkinter.messagebox import showinfo
+
 
 class banda:
 
@@ -23,12 +22,10 @@ class banda:
         data = f"{self.nome_album};{self.nome_banda};{self.ano_lancamento[:5]}; {self.album_lancamento}\n"
         try:
             my_data = database()
-            my_data.write_infile(data)
-            print('salvou')
-            messagebox.showinfo("Salvo", "Álbum salvo com sucesso!")
+            my_data.write_infile(data)            
             return True
         except Exception as e:
-            messagebox.showinfo("Erro!", "ocorreu um erro ao salvar seu arquivo!")
+            print(e)
             return False
      
     #retorno da pesquisa
@@ -38,7 +35,8 @@ class banda:
         data = []
         dados = []
         search = pesquisa
-        
+        print(radio)
+        print(search)
         if search == '':
             data = mydb.all_data()
         else:
@@ -62,4 +60,9 @@ class banda:
                         dados.append((f'{newdata[0]}', f'{newdata[1]}', f'{newdata[2]}', f'{newdata[3]}'))
             except: dados.append((f'{newdata[0]}', f'{newdata[1]}', f'{newdata[2]}', f'{newdata[3]}'))
 
+
+ 
         return dados
+
+    
+    
