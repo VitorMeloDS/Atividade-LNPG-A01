@@ -1,4 +1,5 @@
-# Atividade-A01-LNPG
+# Atividade-A01-LNPG :bookmark_tabs:
 
 
-### autores : Vitor melo, Ykaro Alexandre e Dilson Vieira. ✔️
+
+### autores : Vitor melo, Ykaro Alexandre e Denilson Vieira. ✔️
