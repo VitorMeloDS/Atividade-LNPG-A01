@@ -1,5 +1,4 @@
-# language utf8
-
+from pickle import TRUE
 from db import database
 from tkinter import messagebox
 from tkinter.messagebox import showinfo
@@ -34,12 +33,13 @@ class banda:
             return False
      
     #retorno da pesquisa
-    def pesquisando(pesquisa, radio, ano):
+    def pesquisando(pesquisa, radio, val):
         
         mydb = database()
         data = []
         dados = []
         search = pesquisa
+        print(radio)
         print(search)
         if search == '':
             data = mydb.all_data()
@@ -48,20 +48,22 @@ class banda:
         
         for n in data:
             newdata = n.split(';')
-            a = newdata[2]
-            if radio == 1:
-              if ano <= a:
-                dados.append((f'{newdata[0]}', f'{newdata[1]}', f'{newdata[2]}', f'{newdata[3]}'))
-                
-            elif radio == 2:
-              if ano == a:
-                dados.append((f'{newdata[0]}', f'{newdata[1]}', f'{newdata[2]}', f'{newdata[3]}'))
-                
-            elif radio == 3:
-              if ano >= a:
-                dados.append((f'{newdata[0]}', f'{newdata[1]}', f'{newdata[2]}', f'{newdata[3]}'))
-            else:
-              dados.append((f'{newdata[0]}', f'{newdata[1]}', f'{newdata[2]}', f'{newdata[3]}'))
+            a = int(newdata[2])
+            try:
+                ano = int(val)
+                if radio == 2:
+                    if ano < a:
+                        dados.append((f'{newdata[0]}', f'{newdata[1]}', f'{newdata[2]}', f'{newdata[3]}'))
+                    
+                elif radio == 1:
+                    if ano == a:
+                        dados.append((f'{newdata[0]}', f'{newdata[1]}', f'{newdata[2]}', f'{newdata[3]}'))
+                    
+                elif radio == 0:
+                    if ano > a:
+                        dados.append((f'{newdata[0]}', f'{newdata[1]}', f'{newdata[2]}', f'{newdata[3]}'))
+            except: dados.append((f'{newdata[0]}', f'{newdata[1]}', f'{newdata[2]}', f'{newdata[3]}'))
+
 
  
         return dados
