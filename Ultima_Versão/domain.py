@@ -29,7 +29,6 @@ class banda:
             return True
         except Exception as e:
             messagebox.showinfo("Erro!", "ocorreu um erro ao salvar seu arquivo!")
-            print(e)
             return False
      
     #retorno da pesquisa
@@ -39,8 +38,7 @@ class banda:
         data = []
         dados = []
         search = pesquisa
-        print(radio)
-        print(search)
+        
         if search == '':
             data = mydb.all_data()
         else:
