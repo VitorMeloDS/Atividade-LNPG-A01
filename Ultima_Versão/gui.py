@@ -17,6 +17,7 @@ def tabela_view():
     pesquisa = tabela.get()
     data_radio = datas_radio.get()
     ano = lista_check.get()
+    print(ano)
     dados = banda.pesquisando(pesquisa, data_radio, ano)
     tabela.delete(0, END)
     
@@ -74,8 +75,8 @@ def tela_pesquisa():
 
     datas_radio = IntVar()
     es_entre = Radiobutton(janela2, text = 'Igual', variable=datas_radio,value=1, bg="#3D403F")
-    es_posterior = Radiobutton(janela2, text = 'Posterior ', variable=datas_radio,value=0, bg="#3D403F")
-    es_anterior = Radiobutton(janela2, text = 'Anterior ', variable=datas_radio,value=2, bg="#3D403F")
+    es_posterior = Radiobutton(janela2, text = 'Posterior ', variable=datas_radio,value=2, bg="#3D403F")
+    es_anterior = Radiobutton(janela2, text = 'Anterior ', variable=datas_radio,value=0, bg="#3D403F")
     es_entre.place(x=240, y=275)  
     es_posterior.place(x=340, y=275)
     es_anterior.place(x=140, y=275)
@@ -98,7 +99,7 @@ def tela_cadastro():
     # Tela de cadastro
     janela = Toplevel()
     janela.title("Cadastro de Dados")
-    janela.geometry("600x600")
+    janela.geometry("600x800")
     janela["bg"] = "#3D403F"
 
 
@@ -138,13 +139,13 @@ def tela_cadastro():
 
 def save_button_command():
     #comando do botão "cadastrar"
-    a = nome_album.get()
-    c = data_en.get()
-    b = banda_en.get()
+    a = nome_album.get().title().strip()
+    c = data_en.get().strip()
+    b = banda_en.get().title().strip()
     d = album_lancamento.get()
     if a != '' and b != '' and c != '':
-        if len(c) > 4:
-            messagebox.showinfo("insira os dados", "por favor, insira o ano do album (ex: 2000)")
+        if len(c) > 4 or len(c) < 4:
+            messagebox.showinfo("insira os dados", "Por favor, insira o ano do album (ex: 2000)")
         else:
             mybanda = banda(nome_album=a, ano_lancamento=c, nome_banda=b, album_lancamento=d)
             mybanda.salvar()
