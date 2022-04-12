@@ -16,7 +16,6 @@ def tabela_view():
     pesquisa = tabela.get()
     data_radio = datas_radio.get()
     ano = lista_check.get()
-    print(ano)
     dados = banda.pesquisando(pesquisa, data_radio, ano)
     tabela.delete(0, END)
     
