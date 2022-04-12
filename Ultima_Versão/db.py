@@ -16,7 +16,7 @@ class database:
     with open(self.file_name) as f:
         datafile = f.readlines()
     for line in datafile:
-        if search in line:
+        if search.lower() in line.lower():
           lista.append(line)
     return lista
       
