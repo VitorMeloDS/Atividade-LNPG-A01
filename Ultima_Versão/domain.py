@@ -64,9 +64,4 @@ class banda:
                         dados.append((f'{newdata[0]}', f'{newdata[1]}', f'{newdata[2]}', f'{newdata[3]}'))
             except: dados.append((f'{newdata[0]}', f'{newdata[1]}', f'{newdata[2]}', f'{newdata[3]}'))
 
-
- 
         return dados
-
-    
-    
