@@ -5,6 +5,7 @@ import tkinter as tk
 from domain import banda
 from tkinter.messagebox import showinfo
 
+
 def tabela_view():
 
     root = tk.Tk()
@@ -16,6 +17,7 @@ def tabela_view():
     pesquisa = tabela.get()
     data_radio = datas_radio.get()
     ano = lista_check.get()
+    print(ano)
     dados = banda.pesquisando(pesquisa, data_radio, ano)
     tabela.delete(0, END)
     
@@ -133,6 +135,8 @@ def tela_cadastro():
     
     Label(janela, text="Autor: Vitor, Denilson, Ykaro", font="Courier", fg="#787878", bg="#3D403F", ).place(x=10, y=720)
 
+
+
     janela.mainloop()
 
 def save_button_command():
@@ -146,8 +150,13 @@ def save_button_command():
             messagebox.showinfo("insira os dados", "Por favor, insira o ano do album (ex: 2000)")
         else:
             mybanda = banda(nome_album=a, ano_lancamento=c, nome_banda=b, album_lancamento=d)
-            mybanda.salvar()
-        janela.destroy()
+            a = mybanda.salvar()
+            if a == True:
+                messagebox.showinfo("Salvo", "Álbum salvo com sucesso!")
+            else: 
+                messagebox.showinfo("Erro!", "ocorreu um erro ao salvar seu arquivo!")
+            janela.destroy()
+        
     else: messagebox.showinfo("insira os dados", "Todos os dados são obrigatórios!")
     
 def tela_principal():
