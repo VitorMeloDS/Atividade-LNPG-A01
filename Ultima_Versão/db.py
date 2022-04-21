@@ -19,7 +19,6 @@ class database:
         if search.lower() in line.lower():
           lista.append(line)
     return lista
-      
   
   #retorna todos os dados
   def all_data(self):

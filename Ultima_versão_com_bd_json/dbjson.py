@@ -1,7 +1,6 @@
 import json
 
 class database:
-
   def __init__(self):
     self.file_name = 'data_file_base.json'
   
