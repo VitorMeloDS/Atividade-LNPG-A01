@@ -1,0 +1,530 @@
+[
+    {
+     "Nome": "Back in Black",
+     "Banda": "AC/DC",
+     "Ano": "1980",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Thriller",
+     "Banda": "Michael Jackson",
+     "Ano": "1982",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "The Dark Side of the Moon",
+     "Banda": "Pink Floyd",
+     "Ano": "1973",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Their Greatest Hits (1971-1975)",
+     "Banda": "Eagles",
+     "Ano": "1976",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Jagged Little Pill",
+     "Banda": "Alanis Morissette",
+     "Ano": "1990",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Garrafas e Bocas",
+     "Banda": "Dilsinho",
+     "Ano": "2021",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Cidade do Pecado",
+     "Banda": "BK",
+     "Ano": "2021",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Foodstation, Vol. 2",
+     "Banda": "Sound Food Gang",
+     "Ano": "2021",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "The Real Vibe",
+     "Banda": "Doode",
+     "Ano": "2021",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "KIPEMBE",
+     "Banda": "RT Mallone",
+     "Ano": "2021",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Come On Over",
+     "Banda": "Shania Twain",
+     "Ano": "1997",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Jagged Little Pill",
+     "Banda": "Alanis Morissette",
+     "Ano": "1995",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Saturday Night Fever",
+     "Banda": "Soundtrack",
+     "Ano": "1978",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Machine Messiah",
+     "Banda": "Sepultura",
+     "Ano": "2017",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Silence Yourself",
+     "Banda": "Savages",
+     "Ano": "2013",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Slowdive",
+     "Banda": "Slowdive",
+     "Ano": "2017",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Bloom",
+     "Banda": "Beach House",
+     "Ano": "2012",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Benji",
+     "Banda": "Sun Kil Moon",
+     "Ano": "2014",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Skeleton Tree",
+     "Banda": "Nick Cave & The Bad Seeds",
+     "Ano": "2016",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "A Crow Looked At Me",
+     "Banda": "Mount Eerie",
+     "Ano": "2017",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Flamingo",
+     "Banda": "Brandon Flowers",
+     "Ano": "2010",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Lenine.Doc Trilhas",
+     "Banda": "Lenine",
+     "Ano": "2010",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Hellbilly Deluxe II",
+     "Banda": "Rob Zombie",
+     "Ano": "2010",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Familia",
+     "Banda": "Camila Cabello",
+     "Ano": "2022",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Unlimited Love",
+     "Banda": "Red Hot Chili Peppers",
+     "Ano": "2022",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Microdosis",
+     "Banda": "Mora",
+     "Ano": "2022",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "LEGENDADDY",
+     "Banda": "Daddy Yankee",
+     "Ano": "2022",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Cambios de Luna",
+     "Banda": "Kenia Os",
+     "Ano": "2022",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Ley De Gravedad",
+     "Banda": "Luis Fonsi",
+     "Ano": "2022",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Ferrugem Em Casa 2",
+     "Banda": "Ferrugem",
+     "Ano": "2022",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Give Me The Future",
+     "Banda": "Bastille",
+     "Ano": "2022",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "CHAMA MEU NOME",
+     "Banda": "Pedro Sampaio",
+     "Ano": "2022",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Marry Me",
+     "Banda": "Jennifer Lopez",
+     "Ano": "2022",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Numanice #2",
+     "Banda": "Ludmilla",
+     "Ano": "2022",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "QVVJFA?",
+     "Banda": "Baco Exu do Blues",
+     "Ano": "2022",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Juntos",
+     "Banda": "Sorriso Maroto",
+     "Ano": "2022",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Dawn FM (Alternate World)",
+     "Banda": "The Weeknd",
+     "Ano": "2022",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "'Blondie'",
+     "Banda": "Blondie",
+     "Ano": "1977",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "'Expensive Shit'",
+     "Banda": "Ela Kuti And Africa 70",
+     "Ano": "1975",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "'Supreme Clientele'",
+     "Banda": "Ghostface Killah",
+     "Ano": "2000",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "'Rapture'",
+     "Banda": "Anita Baker",
+     "Ano": "1986",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "'Nuggets: Original Artyfacts From The First Psychedelic Era'",
+     "Banda": "V\u00ef\u00bf\u00bdrios",
+     "Ano": "1972",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "'69 Love Songs'",
+     "Banda": "Magnetic Fields",
+     "Ano": "1999",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "'Everybody Knows This Is Nowhere'",
+     "Banda": "Neil Young",
+     "Ano": "1969",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "'Workingman\u00ef\u00bf\u00bdS Dead'",
+     "Banda": "Grateful Dead",
+     "Ano": "1970",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "The Beach Boys",
+     "Banda": "'Wild Honey'",
+     "Ano": "1967",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Acabou Chorare",
+     "Banda": "Novos Baianos",
+     "Ano": "1972",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Tropic\u00ef\u00bf\u00bdlia Ou Panis Et Circencis",
+     "Banda": "Various Artists",
+     "Ano": "1968",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Constru\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdo",
+     "Banda": "Chico Buarque",
+     "Ano": "1971",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Chega De Saudade",
+     "Banda": "Jo\u00ef\u00bf\u00bdo Gilberto",
+     "Ano": "1959",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Secos & Molhados",
+     "Banda": "Secos & Molhados",
+     "Ano": "1973",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "A T\u00ef\u00bf\u00bdbua De Esmeralda",
+     "Banda": "Jorge Ben",
+     "Ano": "1974",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Clube Da Esquina",
+     "Banda": "Milton Nascimento & L\u00ef\u00bf\u00bd Borges",
+     "Ano": "1972",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Cartolacartola",
+     "Banda": "Cartola",
+     "Ano": "1976",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Os Mutantes",
+     "Banda": "Os Mutantes",
+     "Ano": "1968",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Transa",
+     "Banda": "Caetano Veloso",
+     "Ano": "1972",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Elis & Tom",
+     "Banda": "Elis Regina & Ant\u00ef\u00bf\u00bdnio Carlos Jobim",
+     "Ano": "1974",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Krig-Ha, Bandolo!",
+     "Banda": "Raul Seixas",
+     "Ano": "1973",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Da Lama Ao Caos",
+     "Banda": "Chico Science & Na\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdo Zumbi",
+     "Ano": "1994",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Sobrevivendo No Inferno",
+     "Banda": "Racionais Mc'S",
+     "Ano": "1997",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Samba Esquema Novo",
+     "Banda": "Jorge Ben",
+     "Ano": "1963",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Fruto Proibido",
+     "Banda": "Rita Lee & Tutti Frutti",
+     "Ano": "1975",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Racional Vol. 1",
+     "Banda": "Tim Maia",
+     "Ano": "1975",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Afrociberdelia",
+     "Banda": "Chico Science & Na\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdo Zumbi",
+     "Ano": "1996",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Cabe\u00ef\u00bf\u00bda Dinossauro",
+     "Banda": "Tit\u00ef\u00bf\u00bds",
+     "Ano": "1986",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Fa-Tal: Gal A Todo Vapor",
+     "Banda": "Gal Costa",
+     "Ano": "1971",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Dois",
+     "Banda": "Legi\u00ef\u00bf\u00bdo Urbana",
+     "Ano": "1986",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "A Divina Com\u00ef\u00bf\u00bddia Ou Ando Meio Desligado",
+     "Banda": "Mutantes",
+     "Ano": "1970",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Coisas",
+     "Banda": "Moacir Santos",
+     "Ano": "1965",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Em Ritmo De Aventura",
+     "Banda": "Roberto Carlos",
+     "Ano": "1967",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Tim Maia",
+     "Banda": "Tim Maia",
+     "Ano": "1970",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Expresso 2222",
+     "Banda": "Gilberto Gil",
+     "Ano": "1972",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "N\u00ef\u00bf\u00bds Vamos Invadir Sua Praia",
+     "Banda": "Ultraje A Rigor",
+     "Ano": "1985",
+     "Lancamento": " Nao"
+    },
+    {
+     "Nome": "Roberto Carlos",
+     "Banda": "Roberto Carlos",
+     "Ano": "1971",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Os Afro-Sambas De Baden E Vin\u00ef\u00bf\u00bdcius",
+     "Banda": "Baden Powell & Vinicius De Moraes",
+     "Ano": "1966",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "A Dan\u00ef\u00bf\u00bda Da Solid\u00ef\u00bf\u00bdo",
+     "Banda": "Paulinho Da Viola",
+     "Ano": "1972",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Carlos, Erasmo...",
+     "Banda": "Erasmo Carlos",
+     "Ano": "1971",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "P\u00ef\u00bf\u00bdrola Negra",
+     "Banda": "Luiz Melodia",
+     "Ano": "1973",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "E Seu Viol\u00ef\u00bf\u00bdo",
+     "Banda": "Caymmi",
+     "Ano": "1959",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Loki?",
+     "Banda": "Arnaldo Baptista",
+     "Ano": "1974",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Estudando O Samba",
+     "Banda": "Tom Z\u00ef\u00bf\u00bd",
+     "Ano": "1976",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Falso Brilhante",
+     "Banda": "Elis Regina",
+     "Ano": "1976",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Caetano Veloso",
+     "Banda": "Caetano Veloso",
+     "Ano": "1968",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Maria Fuma\u00ef\u00bf\u00bda",
+     "Banda": "Banda Black Rio",
+     "Ano": "1977",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Legi\u00ef\u00bf\u00bdo Urbana",
+     "Banda": "Legi\u00ef\u00bf\u00bdo Urbana",
+     "Ano": "1985",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Meus Caros Amigos",
+     "Banda": "Chico Buarque",
+     "Ano": "1976",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Bloco Do Eu Sozinho",
+     "Banda": "Los Hermanos",
+     "Ano": "2001",
+     "Lancamento": " Sim\n"
+    },
+    {
+     "Nome": "Refazenda",
+     "Banda": "Gilberto Gil",
+     "Ano": "1975",
+     "Lancamento": " Sim"
+    }
+   ]
